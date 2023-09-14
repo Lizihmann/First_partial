@@ -1,0 +1,40 @@
+def juan():
+  print("how much did you pay for the machine?")
+  cost = input()
+  print("will it have a discount?")
+  variable = input()
+  result = int(cost)*10/100
+  print("this is your final price for the machine", result)
+  print("how much does your temperature machine cost?")
+  machine_1 = input()
+  print("how much does the Thermal shock machine cost?")
+  machine_2 = input()
+  print("do you have a discount for the machines?")
+  variable = input()
+  print("do you want to know how much they will cost to finance them both?")
+  variable = input()
+  result = int(machine_1)+int(machine_2)
+  print("this is their total price", result)
+  print("do you have a discount for them?")
+  variable = input()
+  result = int(machine_1)*10/100+int(machine_2)*10/100
+  print("this is the result of them with them discount", result)
+  print("do you want to pay in another currency?")
+  variable = input()
+  print("okay, in what currency do you want to pay first?")
+  variable = input()
+  print("how much will you have to pay?")
+  price = input()
+  print("whats the rate from pesos for japanese yen?")
+  rate_yen = input()
+  result = int(price)*int(rate_yen)/100
+  print("this is your price in yen", result)
+  print("do you want to pay in dollars now?")
+  variable = input()
+  print("what's the rate of pesos for dollars?")
+  rate_dollars = input()
+  result = int(price)*int(rate_dollars)/10
+  print("this is your final price in dollars", result)
+
+
+juan()
